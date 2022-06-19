@@ -99,6 +99,11 @@ header .links a::before {
 
 }
 
+header .links a.active::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
 header .links a:hover::before {
     transform: scaleX(1);
     transform-origin: left;
