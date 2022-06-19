@@ -35,7 +35,7 @@ const Header = () => {
             <div className={`headerBody ${showMenu ? 'showMenu' : ''}`}>
                 <div className={`links`}>
                     {t("headerLinks").map(itm =>
-                        <NavLink to={itm.url}>{itm.name}</NavLink>
+                        <NavLink key={itm.name + itm.url} to={itm.url}>{itm.name}</NavLink>
                     )}
                 </div>
                 <div className='lang'>
