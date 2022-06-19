@@ -1,0 +1,9 @@
+@import "fonts.css";
+
+:root {
+    --header-size: 4rem;
+    --font-montserrat: "Montserrat", sans-serif;
+    --primary-yellow: #f8c629;
+    --primary-yellow-dark: #d2a61c;
+    --primary-blue: #0E152C;
+}

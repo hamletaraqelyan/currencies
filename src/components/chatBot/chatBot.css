@@ -1,0 +1,24 @@
+.chatBot {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: var(--primary-yellow);
+    cursor: pointer;
+}
+
+.chatBot img {
+    width: 55%;
+    height: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+
+@media (max-width: 480px) {
+    .chatBot {
+        bottom: 1rem;
+        right: 1rem;
+    }
+}

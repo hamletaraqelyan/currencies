@@ -1,0 +1,53 @@
+.homeBanner {
+    padding: 0 4%;
+    min-height: calc(100vh - var(--header-size));
+}
+
+.homeBannerInfo {
+    color: white;
+    width: 60%;
+    padding-right: 5%;
+}
+
+.homeBannerInfo h1 {
+    font-size: 3vw;
+    margin-bottom: 1rem;
+}
+
+.homeBannerInfo h4 {
+    font-size: 1.2vw;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .homeBanner{
+        flex-direction: column;
+        padding: 15% 7%;
+    }
+
+    .homeBannerInfo {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .homeBannerInfo h1 {
+        font-size: 5vw;
+        font-weight: 300;
+    }
+
+    .homeBannerInfo h4 {
+        font-size: 2.5vw;
+        font-weight: 300;
+        opacity: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .homeBannerInfo h1 {
+        font-size: 7vw;
+    }
+
+    .homeBannerInfo h4 {
+        font-size: 4vw;
+    }
+}

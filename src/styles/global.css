@@ -1,0 +1,45 @@
+@import "variables.css";
+@import "globalClasses.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a, input, button {
+    all: unset;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+body {
+    font-family: var(--font-montserrat);
+    font-weight: 200;
+    background-color: var(--primary-blue);
+}
+
+.main {
+    padding-top: var(--header-size);
+    min-height: 100vh;
+    background: rgb(40,52,94);
+    background: -moz-linear-gradient(225deg, rgba(40,52,94,1) 0%, rgba(14,21,44,1) 50%, rgba(14,21,44,1) 100%);
+    background: -webkit-linear-gradient(225deg, rgba(40,52,94,1) 0%, rgba(14,21,44,1) 50%, rgba(14,21,44,1) 100%);
+    background: linear-gradient(225deg, rgba(40,52,94,1) 0%, rgba(14,21,44,1) 50%, rgba(14,21,44,1) 100%);
+    background-attachment: fixed;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#28345e",endColorstr="#0e152c",GradientType=1);
+}
+
+
