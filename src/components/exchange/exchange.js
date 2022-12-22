@@ -67,6 +67,10 @@ const Exchange = () => {
         }
     };
 
+    useEffect(() => {
+        console.log("DEPLOYED")
+    }, [])
+
     return (
         <div className='homeBannerExchange'>
             <form onSubmit={handleSubmit(onSubmit)} className='inputWrapper'>
